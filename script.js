@@ -82,6 +82,7 @@ function makeCell(text){
     return cell;
 }
 
+
 function addRow(name,dob, gender, profession, email, phone, address){
     const row = document.createElement("tr");
 
