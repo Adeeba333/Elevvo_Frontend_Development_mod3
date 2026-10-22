@@ -51,7 +51,7 @@ legend{
     margin-bottom: 10px;
     align-items: center;
 }
-.feld label{
+.field label{
     flex: 0 0 150px;
     font-weight: bold;
 }
@@ -124,5 +124,4 @@ footer{
     padding: 20 px;
     background-color: #fdfffe;
     color: #53725d
-    margin: 14 px;
 }

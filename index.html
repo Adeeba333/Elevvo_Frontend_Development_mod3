@@ -18,15 +18,15 @@
                     <div class="field">
                         <label for="Name">Name*:</label>
                         <div class="control">
-                            <input type="text" id="Name" name="Name">
-                            <span id="nameError" class="error-message" role="alert"></span>
+                            <input type="text" id="Name" name="Name" required>
+                            <span id="nameError" class="error-message"></span>
                         </div>
                     </div><br>
                     <div class="field">
                         <label for="dateOfBirth">Date of Birth*:</label>
                         <div class="control">
-                            <input type="date" id="dateOfBirth" name="dateOfBirth">
-                            <span id="dobError" class="error-message" role="alert"></span>
+                            <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                            <span id="dobError" class="error-message"></span>
                         </div>
                     </div><br>
                     <div class="field">
@@ -38,14 +38,14 @@
                                 <option value="Female">Female</option>
                                 <option value="Other">Other</option>
                             </select>
-                            <span id="genderError" class="error-message" role="alert"></span>
+                            <span id="genderError" class="error-message"></span>
                         </div>
                     </div><br>
                     <div class="field">
                         <label for="Profession">Profession:</label>
                         <div class="control">
                             <input type="text" id="Profession" name="Profession">
-                            <span id="professionError" class="error-message" role="alert"></span>
+                            <span id="professionError" class="error-message"></span>
                         </div>
                     </div>
                 </fieldset>
@@ -56,22 +56,22 @@
                     <div class="field">
                         <label for="Email">Email*:</label>
                         <div class="control">
-                            <input type="email" id="Email" name="Email">
-                            <span id="emailError" class="error-message" role="alert"></span>
+                            <input type="email" id="Email" name="Email" required>
+                            <span id="emailError" class="error-message"></span>
                         </div>
                     </div><br>
                     <div class="field">
                         <label for="PhoneNumber">Phone Number*:</label>
                         <div class="control">
-                            <input type="tel" id="PhoneNumber" name="PhoneNumber">
-                            <span id="phoneError" class="error-message" role="alert"></span>
+                            <input type="tel" id="PhoneNumber" name="PhoneNumber" required>
+                            <span id="phoneError" class="error-message"></span>
                         </div>
                     </div><br>
                     <div class="field">
                         <label for="Address">Address:</label>
                         <div class="control">
                             <textarea id="Address" name="Address"></textarea>
-                            <span id="addressError" class="error-message" role="alert"></span>
+                            <span id="addressError" class="error-message"></span>
                         </div>
                     </div><br>
                 </fieldset>
@@ -101,9 +101,9 @@
             </table>
         </div>
     </main>
-    <script src="script.js"></script>
     <footer>
         <p><i>&copy; 2026 Client Registration. All rights reserved.|Adeeba</i></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
