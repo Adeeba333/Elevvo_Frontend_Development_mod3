@@ -119,9 +119,10 @@ th{
     }
 }
 footer{
+
     text-align: center;
-    padding: 20px;
-    background-color: #53725d;
-    color: #fff;
-    margin-top: 20px;
+    padding: 20 px;
+    background-color: #fdfffe;
+    color: #53725d
+    margin: 14 px;
 }
