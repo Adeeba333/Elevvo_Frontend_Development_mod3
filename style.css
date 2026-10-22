@@ -46,7 +46,8 @@ legend{
     margin-bottom: 10px;
 }
 .field{
-    display: flex;
+    display: grid;
+    grid-template-columns: 150px 1fr;
     margin-bottom: 10px;
     align-items: center;
 }
