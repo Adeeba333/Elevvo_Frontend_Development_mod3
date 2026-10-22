@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Client Registration </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main>
+        <section class="card">
+            <header>
+                <h1> Registration Form </h1>
+            </header>
+            <form id="registrationForm" novalidate>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <div class="field">
+                        <label for="Name">Name*:</label>
+                        <div class="control">
+                            <input type="text" id="Name" name="Name">
+                            <span id="nameError" class="error-message" role="alert"></span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for=""dateOfBirth">Date of Birth*:</label>
+                        <div class="control">
+                            <input type="date" id="dateOfBirth" name="dateOfBirth">
+                            <span id="dobError" class="error-message" role="alert"></span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="Gender">Gender*:</label>
+                        <div class="control">
+                            <select id="Gender" name="Gender">
+                                <option value="">Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <span id="genderError" class="error-message" role="alert"></span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="Profession">Profession*:</label>
+                        <div class="control">
+                            <input type="text" id="Profession" name="Profession">
+                            <span id="professionError" class="error-message" role="alert"></span>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <div class="field">
+                        <label for="Email">Email*:</label>
+                        <div class="control">
+                            <input type="email" id="Email" name="Email">
+                            <span id="emailError" class="error-message" role="alert"></span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="PhoneNumber">Phone Number*:</label>
+                        <div class="control">
+                            <input type="tel" id="PhoneNumber" name="PhoneNumber">
+                            <span id="phoneError" class="error-message" role="alert"></span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="Address">Address*:</label>
+                        <div class="control">
+                            <textarea id="Address" name="Address"></textarea>
+                            <span id="addressError" class="error-message" role="alert"></span>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="actions">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+
+        <h2>Registered Clients</h2>
+        <div class="tabele-wrap">
+            <table id="clientsTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date of Birth</th>
+                        <th>Gender</th>
+                        <th>Profession</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
