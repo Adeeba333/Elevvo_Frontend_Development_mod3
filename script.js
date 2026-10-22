@@ -57,7 +57,7 @@ function validateForm(name,dob,email,phone){
     if(email===""){
         showError("Email","emailError","Email is required");
         isValid=false;
-    }else if(isValidEmail(email)){
+    }else if(!isValidEmail(email)){
         showError("Email", "emailError", "Please enter a valid email address.");
         isValid = false;
     }

@@ -38,7 +38,6 @@ main {
     color: #333;
 }
 form{
-    display: wrap;
     padding: 6px 12px 8px 12px;}
 legend{
     font-size: 1.2em;
@@ -71,7 +70,7 @@ textarea{
 .invalid{
     border-color: red;
 }
-.error{
+.error-message{
     color: red;
     font-size: 0.8rem;
     min-height: 1.2rem;
@@ -121,7 +120,7 @@ th{
 footer{
 
     text-align: center;
-    padding: 20 px;
+    padding: 20px;
     background-color: #fdfffe;
     color: #53725d
 }
